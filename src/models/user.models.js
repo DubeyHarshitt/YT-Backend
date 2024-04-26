@@ -96,7 +96,7 @@ userSchema.methods.generateRefreshToken = function (){
         // Expiry
         {
             expiresIn: this.process.env.REFRESH_TOKEN_EXPIRY
-        }
+        },
     )
 }
 
